@@ -1,0 +1,20 @@
+{
+  "id": 7,
+  "methodName": "fromInputStreamToString",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+  	"java.io.InputStream"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "org.apache.commons.io"
+  ],
+  "libs": [
+    "./lib/commons-io-2.5.jar"
+  ],
+  "testPath": "http-benchmarks/client/util_inputstream_string/TestSource.java",
+  "solutions": [
+  ]
+}

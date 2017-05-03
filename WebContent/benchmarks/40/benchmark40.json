@@ -1,0 +1,25 @@
+{
+  "id": 40,
+  "methodName": "getParagraphElement",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "javax.swing.text.Document",
+    "int"
+  ],
+  "tgtType": "javax.swing.text.Element",
+  "packages": [
+    "javax.swing.text"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/40/TestSource.java",
+  "solutions": [
+    "<javax.swing.text.Document: javax.swing.text.Element getDefaultRootElement()>",
+    "<javax.swing.text.Element: int getElementIndex(int)>",
+    "<javax.swing.text.Element: javax.swing.text.Element getElement(int)>"
+  ]
+}

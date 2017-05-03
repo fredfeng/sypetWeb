@@ -1,0 +1,28 @@
+{
+  "id": 108,
+  "methodName": "getDoctypeByString",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "org.w3c.dom.DocumentType",
+  "packages": [
+    "org.w3c.dom",
+    "javax.xml.parsers",
+    "org.xml.sax"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/108/TestSource.java",
+  "solutions": [
+    "<javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>",
+    "<java.io.StringReader: void <init>(java.lang.String)>",
+    "<javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>",
+    "<org.xml.sax.InputSource: void <init>(java.io.Reader)>",
+    "<javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(org.xml.sax.InputSource)>",
+    "<org.w3c.dom.Document: org.w3c.dom.DocumentType getDoctype()>"
+  ]
+}

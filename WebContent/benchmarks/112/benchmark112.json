@@ -1,0 +1,23 @@
+{
+  "id": 112,
+  "methodName": "daysUtilNow",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+  	"org.joda.time.LocalDate"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/112/TestSource.java",
+  "solutions": [
+     "<org.joda.time.LocalDate: void <init>()>",
+     "<org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadablePartial,org.joda.time.ReadablePartial)>",
+     "<org.joda.time.Days: int getDays()>"
+  ]
+}

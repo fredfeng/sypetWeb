@@ -1,0 +1,25 @@
+{
+  "id": 234,
+  "methodName": "convertPoint",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+  	"edu.utexas.sypet.test.Point"
+  ],
+  "tgtType": "edu.utexas.sypet.test.MyPoint",
+  "packages": [
+    "edu.utexas"
+  ],
+  "libs": [
+    "./lib/point.jar"
+  ],
+  "testPath": "benchmarks/007/TestSource.java",
+  "solutions": [
+    "<edu.utexas.sypet.test.Point: int getX()>",
+    "<edu.utexas.sypet.test.Point: int getY()>",
+    "<edu.utexas.sypet.test.MyPoint: void <init>()>",
+    "<edu.utexas.sypet.test.MyPoint: void setX(int)>",
+    "<edu.utexas.sypet.test.MyPoint: void setY(int)>"
+  ]
+}

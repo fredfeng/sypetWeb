@@ -1,0 +1,29 @@
+{
+  "id": 22,
+  "methodName": "getHTTPTime",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2",
+    "sypet_arg3"
+  ],
+  "srcTypes": [
+  	"java.lang.Integer",
+    "java.lang.String",
+    "java.lang.String",
+    "java.util.Locale"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "java.util.TimeZone",
+    "java.util.Locale",
+    "hirondelle.date4j"
+  ],
+  "libs": [
+    "./lib/date4j.jar",
+    "./lib/rt7.jar"
+  ],
+  "testPath": "http-benchmarks/server/util_date4j_time/TestSource.java",
+  "solutions": [
+  ]
+}

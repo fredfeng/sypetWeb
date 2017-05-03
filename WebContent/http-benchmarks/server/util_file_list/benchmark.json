@@ -1,0 +1,22 @@
+{
+  "id": 24,
+  "methodName": "fileToList",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+  	"java.lang.String"
+  ],
+  "tgtType": "java.util.List",
+  "packages": [
+    "java.io",
+    "java.nio",
+    "java.util.List"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "http-benchmarks/server/util_file_list/TestSource.java",
+  "solutions": [
+  ]
+}

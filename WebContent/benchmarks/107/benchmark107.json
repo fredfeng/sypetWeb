@@ -1,0 +1,24 @@
+{
+  "id": 107,
+  "methodName": "isLeapYear",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+     "int"
+  ],
+  "tgtType": "boolean",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/107/TestSource.java",
+  "solutions": [
+     "<org.joda.time.DateTime: org.joda.time.DateTime now()>",
+     "<org.joda.time.DateTime: org.joda.time.DateTime withWeekyear(int)>",
+     "<org.joda.time.DateTime: org.joda.time.DateTime$Property year()>",
+     "<org.joda.time.field.AbstractReadableInstantFieldProperty: boolean isLeap()>"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 67,
+  "methodName": "daysBetween",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+  	"org.joda.time.DateTime",
+    "org.joda.time.DateTime"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/67/TestSource.java",
+  "solutions": [
+     "<org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>",
+     "<org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadablePartial,org.joda.time.ReadablePartial)>",
+     "<org.joda.time.Days: int getDays()>"
+  ]
+}

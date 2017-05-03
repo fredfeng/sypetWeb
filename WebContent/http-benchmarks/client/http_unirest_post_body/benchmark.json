@@ -1,0 +1,22 @@
+{
+  "id": 9,
+  "methodName": "sendHttpPost",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+  	"java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "com.mashape.unirest"
+  ],
+  "libs": [
+    "unirest.jar"
+  ],
+  "testPath": "http-benchmarks/client/http_unirest_post_body/TestSource.java",
+  "solutions": [
+  ]
+}

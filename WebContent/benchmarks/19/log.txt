@@ -1,0 +1,25 @@
+Buildfile: /home/ruben/Hunter/edu.utexas.hunter/sypet/build.xml
+
+benchmark:
+     [java] Method name: getDayFromString
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] PetriNet for path length: 2 [places: 131 ; transitions: 2582 ; edges: 6674]
+     [java] PetriNet for path length: 3 [places: 161 ; transitions: 2827 ; edges: 7350]
+     [java] PetriNet for path length: 4 [places: 162 ; transitions: 2829 ; edges: 7356]
+     [java] PetriNet for path length: 5 [places: 162 ; transitions: 2829 ; edges: 7356]
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 19
+     [java] Sketch Generation Time: 831.6397360000001
+     [java] Sketch Completion Time: 5.966614000000001
+     [java] Running Test cases Time: 41.254588
+     [java] Synthesis Time: 878.8609380000001
+     [java] Number of components: 3
+     [java] Number of holes: 5
+     [java] Number of completed programs: 1
+     [java] Number of sketches: 1
+     [java] Solution: org.joda.time.format.DateTimeFormatter sypet_var3 = org.joda.time.format.DateTimeFormat.forPattern(sypet_arg1);org.joda.time.LocalDateTime sypet_var4 = org.joda.time.LocalDateTime.parse(sypet_arg0,sypet_var3);int sypet_var5 = sypet_var4.getDayOfMonth();return sypet_var5;
+     [java] ============================
+
+BUILD SUCCESSFUL

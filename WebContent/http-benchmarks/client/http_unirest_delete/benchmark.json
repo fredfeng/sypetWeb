@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "methodName": "sendHttpDelete",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+  	"java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "com.mashape.unirest"
+  ],
+  "libs": [
+    "unirest.jar",
+    "util.jar"
+  ],
+  "testPath": "http-benchmarks/client/http_unirest_delete/TestSource.java",
+  "solutions": [
+  ]
+}

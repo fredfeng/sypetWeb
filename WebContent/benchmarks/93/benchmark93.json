@@ -1,0 +1,32 @@
+{
+  "id": 93,
+  "methodName": "fit",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "org.apache.commons.math3.fitting.WeightedObservedPoints",
+    "double[]"
+  ],
+  "tgtType": "org.apache.commons.math3.analysis.polynomials.PolynomialFunction",
+  "packages": [
+	  "org.apache.commons.math3.fitting",
+	  "org.apache.commons.math3.distribution",
+	  "org.apache.commons.math3.analysis.polynomials",
+      "java.util.Random"
+  ],
+  "libs": [
+    "rt7.jar",
+    "./lib/commons-math3-3.5.jar",
+    "./lib/commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/93/TestSource.java",
+  "solutions": [
+	"<org.apache.commons.math.linear.SingularValueDecomposition: org.apache.commons.math.linear.DecompositionSolver getSolver()>",
+	"<org.apache.commons.math.linear.DecompositionSolver: org.apache.commons.math.linear.RealMatrix getInverse()>",
+	"<org.apache.commons.math.linear.SingularValueDecompositionImpl: void <init>(org.apache.commons.math.linear.RealMatrix)>",
+	"<com.opengamma.analytics.math.util.wrapper.CommonsMathWrapper: org.apache.commons.math.linear.RealMatrix wrap(com.opengamma.analytics.math.matrix.DoubleMatrix2D)>",
+	"<com.opengamma.analytics.math.util.wrapper.CommonsMathWrapper: com.opengamma.analytics.math.matrix.DoubleMatrix2D unwrap(org.apache.commons.math.linear.RealMatrix)>"
+  ]
+}

@@ -1,0 +1,26 @@
+Buildfile: /home/ruben/Hunter/edu.utexas.hunter/sypet/build.xml
+
+benchmark:
+     [java] Method name: solveLinear
+     [java] Source type(s): [double[][], double[]]
+     [java] Target type: double[]
+     [java] --------------------------------------------------------
+     [java] PetriNet for path length: 3 [places: 71 ; transitions: 978 ; edges: 2630]
+     [java] PetriNet for path length: 4 [places: 73 ; transitions: 995 ; edges: 2678]
+     [java] PetriNet for path length: 5 [places: 73 ; transitions: 995 ; edges: 2678]
+     [java] PetriNet for path length: 6 [places: 73 ; transitions: 995 ; edges: 2678]
+     [java] ----------
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 6
+     [java] Sketch Generation Time: 20810.716942000003
+     [java] Sketch Completion Time: 476.9217000000002
+     [java] Running Test cases Time: 12461.231826999998
+     [java] Synthesis Time: 33748.870469
+     [java] Number of components: 6
+     [java] Number of holes: 8
+     [java] Number of completed programs: 1602
+     [java] Number of sketches: 784
+     [java] Solution: org.apache.commons.math3.linear.RealMatrix sypet_var5010 = org.apache.commons.math3.linear.MatrixUtils.createRealMatrix(sypet_arg0);org.apache.commons.math3.linear.LUDecomposition sypet_var5011 = new org.apache.commons.math3.linear.LUDecomposition(sypet_var5010);org.apache.commons.math3.linear.DecompositionSolver sypet_var5012 = sypet_var5011.getSolver();org.apache.commons.math3.linear.RealVector sypet_var5013 = org.apache.commons.math3.linear.MatrixUtils.createRealVector(sypet_arg1);org.apache.commons.math3.linear.RealVector sypet_var5014 = sypet_var5012.solve(sypet_var5013);double[] sypet_var5015 = sypet_var5014.toArray();return sypet_var5015;
+     [java] ============================
+
+BUILD SUCCESSFUL

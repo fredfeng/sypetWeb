@@ -1,0 +1,22 @@
+{
+  "id": 115,
+  "methodName": "getIntersection",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.awt.geom.Ellipse2D",
+    "java.awt.geom.Ellipse2D"
+  ],
+  "tgtType": "java.awt.geom.Rectangle2D",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/115/TestSource.java",
+  "solutions": [
+  ]
+}

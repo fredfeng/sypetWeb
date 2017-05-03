@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "methodName": "buildURI",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2",
+    "sypet_arg3"
+  ],
+  "srcTypes": [
+  	"java.lang.String",
+    "int",
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "java.net.URI",
+  "packages": [
+    "java.net.URI",
+    "org.apache.http.client.utils"
+  ],
+  "libs": [
+    "./lib/httpclient-4.5.2.jar",
+    "./lib/httpcore-4.4.4.jar",
+    "./lib/rt7.jar"
+  ],
+  "testPath": "http-benchmarks/client/util_build_uri/TestSource.java",
+  "solutions": [
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 19,
+  "methodName": "sendHttpPost",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+  	"org.apache.http.client.methods.HttpPost"
+  ],
+  "tgtType": "java.io.InputStream",
+  "packages": [
+    "org.apache.http"
+  ],
+  "libs": [
+    "./lib/httpcore-4.4.4.jar",
+    "./lib/httpclient-4.5.2.jar",
+    "./lib/commons-logging-1.2.jar",
+    "./lib/util.jar"
+  ],
+  "testPath": "http-benchmarks/client/http_apache_post/TestSource.java",
+  "solutions": [
+  ]
+}

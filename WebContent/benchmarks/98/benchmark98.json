@@ -1,0 +1,26 @@
+{
+  "id": 98,
+  "methodName": "dayOfWeek",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+  	"java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/98/TestSource.java",
+  "solutions": [
+     "<org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>",
+     "<org.joda.time.DateTime: org.joda.time.DateTime parse(java.lang.String,org.joda.time.format.DateTimeFormatter)>",
+     "<org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfWeek()>",
+     "<org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsText()>"
+  ]
+}

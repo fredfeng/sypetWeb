@@ -1,0 +1,29 @@
+{
+  "id": 2,
+  "methodName": "rotate",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+
+  "srcTypes": [
+    "java.awt.geom.Area",
+    "java.awt.geom.Point2D",
+    "double"
+  ],
+  "tgtType": "java.awt.geom.Area",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/2/TestSource.java",
+  "solutions": [
+        "<java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double,double)>",
+		"<java.awt.geom.Point2D: double getX()>",
+		"<java.awt.geom.Point2D: double getY()>",
+		"<java.awt.geom.Area: java.awt.geom.Area createTransformedArea(java.awt.geom.AffineTransform)>"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": 97,
+  "methodName": "daysOfMonth",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+  	"java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/97/TestSource.java",
+  "solutions": [
+    "<org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>",
+     "<org.joda.time.DateTime: org.joda.time.DateTime parse(java.lang.String,org.joda.time.format.DateTimeFormatter)>",
+    "<org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>",
+    "<org.joda.time.field.AbstractReadableInstantFieldProperty: int getMaximumValue()>"
+  ]
+}

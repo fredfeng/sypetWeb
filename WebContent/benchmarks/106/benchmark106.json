@@ -1,0 +1,26 @@
+{
+  "id": 106,
+  "methodName": "rotateQuadrant",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.awt.geom.Rectangle2D",
+    "int"
+  ],
+  "tgtType": "java.awt.geom.Rectangle2D",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/106/TestSource.java",
+  "solutions": [
+    "<java.awt.geom.Area: void <init>(java.awt.Shape)>_poly2",
+    "<java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getQuadrantRotateInstance(int)>",
+    "<java.awt.geom.Area: java.awt.geom.Area createTransformedArea(java.awt.geom.AffineTransform)>",
+    "<java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>"
+  ]
+}

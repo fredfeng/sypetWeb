@@ -1,0 +1,25 @@
+{
+  "id": 65,
+  "methodName": "toText",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "org.jsoup"
+  ],
+  "libs": [
+    "./lib/jsoup-1.8.3.jar"
+  ],
+  "testPath": "benchmarks/65/TestSource.java",
+  "solutions": [
+    "<org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>",
+    "<org.jsoup.Connection: org.jsoup.nodes.Document get()>",
+    "<org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>",
+    "<org.jsoup.nodes.Element: java.lang.String text()>",
+    "<org.jsoup.nodes.Element: java.lang.String toString()>"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": 68,
+  "methodName": "getHoursWithZoneBetweenCities",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+  	"java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/68/TestSource.java",
+  "solutions": [
+  ]
+}

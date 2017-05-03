@@ -1,0 +1,24 @@
+{
+  "id": 96,
+  "methodName": "daysBetweenDates",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+  	"java.lang.String",
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/96/TestSource.java",
+  "solutions": [
+  ]
+}

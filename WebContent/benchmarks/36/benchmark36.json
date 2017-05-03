@@ -1,0 +1,25 @@
+{
+  "id": 36,
+  "methodName": "getOffsetForLine",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "javax.swing.text.Document",
+    "int"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "javax.swing.text"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/36/TestSource.java",
+  "solutions": [
+    "<javax.swing.text.Document: javax.swing.text.Element getDefaultRootElement()>",
+    "<javax.swing.text.Element: int getStartOffset()>",
+    "<javax.swing.text.Element: javax.swing.text.Element getElement(int)>"
+  ]
+}

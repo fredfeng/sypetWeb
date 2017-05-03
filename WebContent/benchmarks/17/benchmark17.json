@@ -1,0 +1,29 @@
+{
+  "id": 17,
+  "methodName": "getOuterProduct",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D",
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D"
+  ],
+  "tgtType": "com.opengamma.analytics.math.matrix.DoubleMatrix2D",
+  "packages": [
+    "com.opengamma.analytics.math",
+    "org.apache.commons.math.linear"
+  ],
+  "libs": [
+    "./lib/commons-math-2.2.jar",
+    "./lib/og-analytics-2.17.0.jar",
+    "./lib/commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/17/TestSource.java",
+  "solutions": [
+	"<com.opengamma.analytics.math.util.wrapper.CommonsMathWrapper: com.opengamma.analytics.math.matrix.DoubleMatrix2D unwrap(org.apache.commons.math.linear.RealMatrix)>",
+	"<org.apache.commons.math.linear.RealVector: org.apache.commons.math.linear.RealMatrix outerProduct(org.apache.commons.math.linear.RealVector)>",
+	"<com.opengamma.analytics.math.util.wrapper.CommonsMathWrapper: org.apache.commons.math.linear.RealVector wrap(com.opengamma.analytics.math.matrix.DoubleMatrix1D)>",
+	"<com.opengamma.analytics.math.util.wrapper.CommonsMathWrapper: org.apache.commons.math.linear.RealVector wrap(com.opengamma.analytics.math.matrix.DoubleMatrix1D)>"
+  ]
+}

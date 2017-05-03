@@ -1,0 +1,30 @@
+{
+  "id": 46,
+  "methodName": "isMatchInRegion",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2",
+    "sypet_arg3"
+  ],
+  "srcTypes": [
+    "java.lang.CharSequence",
+    "java.util.regex.Pattern",
+    "int",
+    "int"
+  ],
+  "tgtType": "boolean",
+  "packages": [
+    "java.util.regex"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/46/TestSource.java",
+  "solutions": [
+    "<java.util.regex.Pattern: java.util.regex.Matcher matcher(java.lang.CharSequence)>",
+    "<java.util.regex.Matcher: java.util.regex.Matcher region(int,int)>",
+    "<java.util.regex.Matcher: boolean find()>",
+    "sypet_clone_int"
+  ]
+}

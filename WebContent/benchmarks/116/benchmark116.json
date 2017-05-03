@@ -1,0 +1,20 @@
+{
+  "id": 116,
+  "methodName": "ctrlPointLine",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.awt.geom.QuadCurve2D"
+  ],
+  "tgtType": "java.awt.geom.Line2D",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/116/TestSource.java",
+  "solutions": [
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": 91,
+  "methodName": "solveLinear",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "double[][]",
+    "double[]"
+  ],
+  "tgtType": "double[]",
+  "packages": [
+	  "org.apache.commons.math3.linear"
+  ],
+  "libs": [
+    "./lib/commons-math3-3.5.jar",
+    "./lib/commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/91/TestSource.java",
+  "solutions": [
+    "<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix createRealMatrix(double[][])>",
+    "<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix transpose()>",
+    "<org.apache.commons.math3.linear.LUDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix)>",
+    "<org.apache.commons.math3.linear.LUDecomposition: org.apache.commons.math3.linear.DecompositionSolver getSolver()>",
+    "<org.apache.commons.math3.linear.DecompositionSolver: org.apache.commons.math3.linear.RealMatrix getInverse()>",
+    "<org.apache.commons.math3.linear.RealMatrix: double[] preMultiply(double[])>"
+  ]
+}

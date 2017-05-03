@@ -1,0 +1,33 @@
+{
+  "id": 109,
+  "methodName": "evaluateByXpath",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.io.File",
+    "java.lang.String",
+    "javax.xml.namespace.QName"
+  ],
+  "tgtType": "java.lang.Object",
+  "packages": [
+    "org.w3c.dom",
+    "javax.xml",
+    "org.xml.sax"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/109/TestSource.java",
+  "solutions": [
+    "<javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>",
+    "<javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>",
+    "<javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.io.File)>",
+    "<javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>",
+    "<javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance()>",
+    "<javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>"
+
+  ]
+}

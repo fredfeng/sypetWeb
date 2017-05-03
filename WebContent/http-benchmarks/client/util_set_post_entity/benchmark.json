@@ -1,0 +1,25 @@
+{
+  "id": 17,
+  "methodName": "setEntity",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+  	"org.apache.http.client.methods.HttpPost",
+    "java.lang.String"
+  ],
+  "tgtType": "org.apache.http.client.methods.HttpPost",
+  "packages": [
+    "org.apache.http"
+  ],
+  "libs": [
+    "./lib/httpcore-4.4.4.jar",
+    "./lib/httpclient-4.5.2.jar",
+    "./lib/commons-logging-1.2.jar",
+    "./lib/util.jar"
+  ],
+  "testPath": "http-benchmarks/client/util_set_post_entity/TestSource.java",
+  "solutions": [
+  ]
+}

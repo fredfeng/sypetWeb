@@ -1,0 +1,26 @@
+{
+  "id": 5,
+  "methodName": "mergeLine",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+  	"java.awt.geom.Line2D",
+    "java.awt.geom.Line2D"
+  ],
+  "tgtType": "java.awt.geom.Line2D$Double",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/5/TestSource.java",
+  "solutions": [
+	"<java.awt.geom.Line2D: java.awt.geom.Point2D getP1()>",
+	"<java.awt.geom.Line2D: java.awt.geom.Point2D getP2()>",
+	"<java.awt.geom.Line2D$Double: void <init>(java.awt.geom.Point2D,java.awt.geom.Point2D)>",
+	"sypet_clone_java.awt.geom.Line2D"
+  ]
+}

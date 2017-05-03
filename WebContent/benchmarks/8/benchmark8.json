@@ -1,0 +1,36 @@
+{
+  "id": 8,
+  "methodName": "convertByYear",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+  	"long",
+    "org.joda.time.Chronology",
+    "org.joda.time.Chronology"
+  ],
+  "tgtType": "long",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/8/TestSource.java",
+  "solutions": [
+	"<org.joda.time.Chronology: org.joda.time.DateTimeField year()>",
+	"<org.joda.time.Chronology: org.joda.time.DateTimeField monthOfYear()>",
+	"<org.joda.time.Chronology: org.joda.time.DateTimeField dayOfMonth()>",
+	"<org.joda.time.Chronology: org.joda.time.DateTimeField millisOfDay()>",
+	"<org.joda.time.DateTimeField: int get(long)>",
+	"<org.joda.time.DateTimeField: int get(long)>",
+	"<org.joda.time.DateTimeField: int get(long)>",
+	"<org.joda.time.DateTimeField: int get(long)>",
+	"<org.joda.time.Chronology: long getDateTimeMillis(int,int,int,int)>",
+	"sypet_clone_org.joda.time.Chronology",
+	"sypet_clone_org.joda.time.Chronology",
+	"sypet_clone_org.joda.time.Chronology"
+  ]
+}

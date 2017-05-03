@@ -1,0 +1,29 @@
+{
+  "id": 15,
+  "methodName": "getInnerProduct",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D",
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D"
+  ],
+  "tgtType": "double",
+  "packages": [
+    "com.opengamma.analytics.math",
+    "org.apache.commons.math.linear"
+  ],
+  "libs": [
+    "commons-math-2.2.jar",
+    "og-analytics-2.17.0.jar",
+    "commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/15/TestSource.java",
+  "solutions": [
+	"<com.opengamma.analytics.math.matrix.DoubleMatrix1D: double[] toArray()>",
+  "<com.opengamma.analytics.math.util.wrapper.CommonsMathWrapper: org.apache.commons.math.linear.RealVector wrap(com.opengamma.analytics.math.matrix.DoubleMatrix1D)>",
+  "<org.apache.commons.math.linear.RealVector: double dotProduct(double[])>"
+	
+  ]
+}

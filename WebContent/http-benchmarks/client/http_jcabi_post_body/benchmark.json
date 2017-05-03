@@ -1,0 +1,25 @@
+{
+  "id": 14,
+  "methodName": "sendHttpPost",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.net.URI",
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "com.jcabi.http"
+  ],
+  "libs": [
+    "./lib/jcabi.jar",
+    "./lib/util.jar"
+  ],
+  "testPath": "http-benchmarks/client/http_jcabi_post_body/TestSource.java",
+  "solutions": [
+  ]
+}

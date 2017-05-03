@@ -1,0 +1,25 @@
+{
+  "id": 113,
+  "methodName": "predict",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "double[][]",
+    "double"
+  ],
+  "tgtType": "double",
+  "packages": [
+    "org.apache.commons.math.stat"
+  ],
+  "libs": [
+    "./lib/commons-math-2.2.jar"
+  ],
+  "testPath": "benchmarks/113/TestSource.java",
+  "solutions": [
+    "<org.apache.commons.math.stat.regression.SimpleRegression: void <init>()>",
+    "<org.apache.commons.math.stat.regression.SimpleRegression: void addData(double[][])>",
+    "<org.apache.commons.math.stat.regression.SimpleRegression: double predict(double)>"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 51,
+  "methodName": "createDateFormat",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.lang.String",
+    "java.util.TimeZone",
+    "java.util.Locale"
+  ],
+  "tgtType": "java.text.DateFormat",
+  "packages": [
+    "java.text"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/51/TestSource.java",
+  "solutions": [
+    "<java.text.DateFormatSymbols: void <init>(java.util.Locale)>",
+    "<java.text.SimpleDateFormat: void <init>(java.lang.String,java.text.DateFormatSymbols)>",
+    "<java.text.DateFormat: void setTimeZone(java.util.TimeZone)>",
+    "sypet_clone_java.text.DateFormat"
+  ]
+}
