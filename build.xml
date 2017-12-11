@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="sypetweb" default="jar">
+
+    <dirname property="this.dir" file="${ant.file}"/>
+    <property name="target.loc" location="${target}"/>
+
+    <target name="init">
+        <mkdir dir="mybin"/>
+    </target>
+
+    <target name="compile" depends="init"
+          description="compile the source code">
+
+    <javac target="1.7" source="1.7" srcdir="src" destdir="mybin" debug="true">
+        <classpath>
+            <fileset dir="WebContent/WEB-INF/lib">
+                <include name="**/*.jar"/>
+            </fileset>
+        </classpath>
+    </javac>
+    </target>
+
+    <target name="jar" depends="compile"
+          description="generate the distribution" >
+        <jar jarfile="sypetweb.jar" basedir="mybin"/>
+    </target>
+
+    <target name="clean"
+          description="clean up" >
+        <delete dir="mybin"/>
+        <delete file="sypetweb.jar"/>
+    </target>
+</project>
